@@ -30,6 +30,9 @@ ol, ul {
     padding: 0;
     text-align: center;
     width: 50px;
+    type: text;
+    /*maxlength: 1;*/
+    text-transform: capitalize;
 }
 
 .square:focus {
