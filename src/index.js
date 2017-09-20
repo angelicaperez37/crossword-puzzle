@@ -2,16 +2,17 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import './css/index.css';
 import { restrictCharacters } from "./js/util";
+import { Square } from "./js/Square"
 
-function Square(props) {
-    return (
-        <input className="square" onClick={props.onClick} maxLength={1} onKeyDown={(e) => restrictCharacters(e)}>
-            {props.value}
-        </input>
-    );
-}
+// function Square(props) {
+//  return (
+//         <input className="square" onClick={props.onClick} maxLength={1} onKeyDown={(e) => restrictCharacters(e)}>
+//             {props.value}
+//         </input>
+//     );
+// }
 
-class Board extends React.Component {
+class CrosswordPuzzle extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -87,7 +88,7 @@ class Game extends React.Component {
         return (
             <div className="game">
                 <div className="game-board">
-                    <Board/>
+                    <CrosswordPuzzle/>
                 </div>
                 <div className="game-info">
                     <div>{/* status */}</div>
