@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="org.webjars.npm:github-com-gruntjs-grunt-cli:1.2.0" type="repository">
+    <properties maven-id="org.webjars.npm:github-com-gruntjs-grunt-cli:1.2.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/github-com-gruntjs-grunt-cli/1.2.0/github-com-gruntjs-grunt-cli-1.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/findup-sync/0.3.0/findup-sync-0.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/glob/5.0.15/glob-5.0.15.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/once/1.4.0/once-1.4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/wrappy/1.0.2/wrappy-1.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/inflight/1.0.6/inflight-1.0.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/inherits/2.0.3/inherits-2.0.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/minimatch/3.0.4/minimatch-3.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/brace-expansion/1.1.8/brace-expansion-1.1.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/balanced-match/1.0.0/balanced-match-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/concat-map/0.0.1/concat-map-0.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/path-is-absolute/1.0.1/path-is-absolute-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/grunt-known-options/1.1.0/grunt-known-options-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/nopt/3.0.6/nopt-3.0.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/abbrev/1.1.0/abbrev-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/npm/resolve/1.1.7/resolve-1.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

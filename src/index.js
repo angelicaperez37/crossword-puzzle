@@ -1,7 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import './css/index.css';
-import { restrictCharacters } from "./js/util";
 import { Square } from "./js/Square"
 
 // function Square(props) {
@@ -12,7 +11,7 @@ import { Square } from "./js/Square"
 //     );
 // }
 
-class CrosswordPuzzle extends React.Component {
+class Board extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -83,12 +82,12 @@ class CrosswordPuzzle extends React.Component {
     }
 }
 
-class Game extends React.Component {
+class CrosswordPuzzle extends React.Component {
     render() {
         return (
             <div className="game">
                 <div className="game-board">
-                    <CrosswordPuzzle/>
+                    <Board/>
                 </div>
                 <div className="game-info">
                     <div>{/* status */}</div>
@@ -102,6 +101,6 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-    <Game/>,
+    <CrosswordPuzzle/>,
     document.getElementById('root')
 );
